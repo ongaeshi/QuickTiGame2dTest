@@ -1,6 +1,7 @@
 var quicktigame2d = require('com.googlecode.quicktigame2d');
 var util = require("util");
 var fpsCounter = require("fps-counter");
+require("console-p");
 
 // ------------------------------
 // scene setup
@@ -23,6 +24,9 @@ function createSprite(x, y) {
   sprite.y = y;
   scene.add(sprite);
   gSprites.push(sprite);
+
+  //console.p({x: sprite.x, y: sprite.y});
+  //Ti.API.info([1, 2, 3]);
 }
 
 // ------------------------------
@@ -38,7 +42,7 @@ game.addEventListener('onload', function(e) {
 game.addEventListener('enterframe', function(e) {
   // FPS更新
   fpsCounter.update(fpsLabel);
-  
+
   // Move Sprite
   var speed = 4;
 
