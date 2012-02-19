@@ -1,18 +1,13 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Just testing the iPhone game JavaScript.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+* I made it using Titanium, QuickTiGame2d module.
+* Sprite comes out the tap.
+* FPS appears in the upper-left corner.
 
+----------------------------------------
+JavaScriptでiPhoneゲーム作成テスト。
 
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
+* TitaniumのQuickTiGame2dモジュールを使って作りました。
+* タップした場所にスプライトが出ます。
+* FPSが左上に表示されます。
 
